@@ -1,14 +1,22 @@
+/* An element selector which targets the element by name (body) and applies the specified CSS properties mentioned. These properties will be
+applied to the entire body in the HTML*/
+
 body {
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 
+
+/* An element selector: the following properties will be applied to */
 header {
     padding: 10px;
-    align-content: center;
     background: purple;
     color: white;
     font-size: 20px;
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
   }
+
 
 nav {
     display: flex;
@@ -21,35 +29,51 @@ nav {
     font-size:20px;
   }
   
+
   nav a {
     color: white;
     padding: 10px;
     text-align: center;
+
   }
+
+
 
   main {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     color:purple;
   } 
-    
+
+/*A class selector; this CSS property will be applied to all elements containing this class attribute (.aboutme)*/
   .aboutme {
     background-color: white;
   }
 
+  /*A class selector specifically targeting the h1: these CSS properties will be applied to all elements containing this class attribute*/
   .aboutme h1 {
    font-size:30px;
    background-color: purple;
    color:white;
   }
 
+
+ .aboutme p {
+   
+ }
+
+
+
+
   .mywork {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
     background-color: white;
   }
+
+
 
   .mywork h1 {
     font-size: 30px;
@@ -57,19 +81,17 @@ nav {
     color:purple;
   }
 
-  
+ 
+
 .card {
-    border-style:solid;
-    border-color:purple;
-    border-radius: 50px 50px 50px 50px; 
-    padding: 5px;
-    width: 800px;
-    height: 400px;
-    box-sizing: border-box;
-    flex: 1 0 0;
-    display: block;
-    margin:5px;
-  }
+  flex: 1 0 0;
+  padding: 10px;
+  text-align:center;
+  border-style:solid;
+  border-color:purple;
+  border-radius: 50px 50px 50px 50px; 
+  margin:5px;
+}
 
 
   .card header {
@@ -78,13 +100,15 @@ nav {
     border-radius: 60px 60px 60px 60px;
   }
   
+
+  
   .card img {
    width: 90%;
-   justify-content: center;
    border-radius: 80px 80px 80px 80px;
-   margin:20px;
   }
   
+
+
   .thumbnail:hover {
     left:-50px;
     width:400px;
@@ -92,21 +116,17 @@ nav {
     z-index:999;
   }
   
+  
 .contactme {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   background-color: white;
-  color: purple;
 }
+
 
 .contactme h1 {
   font-size: 30px;
   background-color: purple;
   color:white;
-  width: 100%;
 }
-
 
 
 
@@ -116,6 +136,7 @@ nav {
       }
   }
 
+  
   @media screen and (max-width:760px) {
       .card {
           width: 100%;
