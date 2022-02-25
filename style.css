@@ -59,23 +59,20 @@ nav {
   }
 
 
- .aboutme p {
-   
- }
-
-
 
 
   .mywork {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
-    background-color: white;
+
   }
 
 
+.myworkparagraph {
+max-width: 500px;
+}
 
-  .mywork h1 {
+
+  .mywork div h1 {
     font-size: 30px;
     background-color: white;
     color:purple;
@@ -108,6 +105,9 @@ nav {
   }
   
 
+  .mycard {
+    display: flex;
+  }
 
   .thumbnail:hover {
     left:-50px;
