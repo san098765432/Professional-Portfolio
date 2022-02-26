@@ -1,3 +1,4 @@
+
 /* An element selector which targets the element by name (body) and applies the specified CSS properties mentioned. These properties will be
 applied to the entire body in the HTML*/
 
@@ -158,14 +159,14 @@ max-width: 500px;
 }
 
 
-
+/*Media query targeting .card class attribute, specifying width for 990px */
   @media screen and (max-width:990px) {
       .card {
           width: 50%;
       }
   }
 
-  
+  /*Media query targeting .card class attribute, specifying width for 760px */
   @media screen and (max-width:760px) {
       .card {
           width: 100%;

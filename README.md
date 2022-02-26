@@ -1,4 +1,9 @@
 # Professional-Portfolio
+
+# DESCRIPTION
+A professional portfolio containing created to ve viewed by potential employers. This contains links to all projects completed so far aswell as my contact information.
+
+
 # USER STORY
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
@@ -20,8 +25,14 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-#SCREENSHOT
+# SCREENSHOT
+
+<img src= "/Screenshot.png"
 
 
+# LINK TO GITHUB REPOSITORY
+https://github.com/san098765432/Professional-Portfolio 
+
+# LINK TO DEPLOYED APPLICATION
 
 
