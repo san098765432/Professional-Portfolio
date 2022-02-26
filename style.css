@@ -36,12 +36,11 @@ nav {
 
 /*An element selector- here the  nav a is specifically being targeted and following properties are applied*/
   nav a {
-    color: white;
+    color: white; 
     padding: 10px;
     text-align: center;
 
   }
-
 
 
 /* An element selector: the following properties will be applied to the specified element only */
