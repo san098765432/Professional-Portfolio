@@ -27,12 +27,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # SCREENSHOT
 
-<img src= "./SCREENSHOT.png" >
+<img src= "SCREENSHOT.png" >
 
 
 # LINK TO GITHUB REPOSITORY
 https://github.com/san098765432/Professional-Portfolio 
 
 # LINK TO DEPLOYED APPLICATION
-https://san098765432.github.io/Professional-Portfolio/ 
+
 
