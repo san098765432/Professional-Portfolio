@@ -27,7 +27,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 # SCREENSHOT
 
-<img src= "/Screenshot.png"
+<img src= "./SCREENSHOT.png" >
 
 
 # LINK TO GITHUB REPOSITORY
