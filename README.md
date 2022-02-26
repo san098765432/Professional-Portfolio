@@ -34,5 +34,5 @@ THEN I am presented with a responsive layout that adapts to my viewport
 https://github.com/san098765432/Professional-Portfolio 
 
 # LINK TO DEPLOYED APPLICATION
-
+https://san098765432.github.io/Professional-Portfolio/ 
 
